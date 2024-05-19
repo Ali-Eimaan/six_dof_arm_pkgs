@@ -23,3 +23,12 @@
 ```sh
   source install/setup.bash
 ```
+# *Usage*
+To launch simulation in gazebo and rviz the following command needs to be executed. 
+```sh
+  ros2 launch six_dof_arm launch_sim.launch.py
+```
+This command will,
+1. Run Gazebo
+2. Spawn Robot
+3. Launch Rviz
