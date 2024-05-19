@@ -1,0 +1,25 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: six_dof_arm
+    relative_path: description/a0509.urdf.xacro
+  srdf:
+    relative_path: config/a0509.srdf
+  package_settings:
+    author_name: Muhammad Ali Eimaan
+    author_email: m.a.eimaan8@gmail.com
+    generated_timestamp: 1716055721
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
+  modified_urdf:
+    xacros:
+      - control_xacro
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
