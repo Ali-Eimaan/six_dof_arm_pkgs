@@ -1,0 +1,15 @@
+# Default initial positions for a0509's ros2_control fake system
+
+initial_positions:
+  joint1: 0
+  joint2: 0
+  joint3: 0
+  joint4: 0
+  joint5: 0
+  joint6: 0
+  robotiq_85_left_knuckle_joint: 0
+  robotiq_85_right_knuckle_joint: 0
+  robotiq_85_left_inner_knuckle_joint: 0
+  robotiq_85_right_inner_knuckle_joint: 0
+  robotiq_85_left_finger_tip_joint: 0
+  robotiq_85_right_finger_tip_joint: 0
