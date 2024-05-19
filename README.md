@@ -9,7 +9,7 @@
 ```
 3. Clone the repo
 ```sh
-  cd ~/ros2_ws/src
+  git clone https://github.com/Ali-Eimaan/six_dof_arm_pkgs.git
 ```
 4. cd to Workspace
 ```sh
