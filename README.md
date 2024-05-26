@@ -1,25 +1,30 @@
 # *Build* 
-1. Create a Work Space
+1. Install Required Packages
+```sh
+  sudo apt-get install ros-humble-ros2-controls
+  sudo apt-get install ros-humble-ros2-controllers
+```
+2. Create a Work Space
 ```sh
   mkdir -p ~/ros2_ws/src
 ```
-2. cd into src of Workspace
+3. cd into src of Workspace
 ```sh
   cd ~/ros2_ws/src
 ```
-3. Clone the repo
+4. Clone the repo
 ```sh
   git clone https://github.com/Ali-Eimaan/six_dof_arm_pkgs.git
 ```
-4. cd to Workspace
+5. cd to Workspace
 ```sh
   cd ~/ros2_ws
 ```
-5. Build The pkgs
+6. Build The pkgs
 ```sh
   colcon build
 ```
-6. Source setup.bash of pkgs
+7. Source setup.bash of pkgs
 ```sh
   source install/setup.bash
 ```
