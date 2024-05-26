@@ -3,6 +3,7 @@
 ```sh
 sudo apt-get install ros-humble-ros2-control
 sudo apt-get install ros-humble-ros2-controllers
+sudo apt-get install ros-humble-gripper-controllers
 ```
 2. Create a Work Space
 ```sh
