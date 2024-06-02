@@ -4,6 +4,7 @@
 sudo apt-get install ros-humble-ros2-control
 sudo apt-get install ros-humble-ros2-controllers
 sudo apt-get install ros-humble-gripper-controllers
+sudo apt-get install python3-colcon-common-extensions
 ```
 2. Create a Work Space
 ```sh
